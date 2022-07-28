@@ -77,9 +77,14 @@ def append_to_csv(json_response, fileName):
 bearer_token = auth()
 headers = create_headers(bearer_token)
 
-keyword = "在留カード, アプリ"
-start_time = '2020-12-25T00:00:00Z'
-end_time = '2021-11-12T00:00:00Z'
+# Fill your keyword.
+# Visa, Application
+keyword = ''
+
+# Choose time scope for scraping.
+# Ex. 2020-12-25T00:00:00Z
+start_time = ''
+end_time = ''
 max_results = 500
 
 
